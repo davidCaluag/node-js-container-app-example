@@ -9,5 +9,5 @@ RUN npm install
 COPY . .
 # Expose the app's port
 EXPOSE 3000
-# Command to run the app
+# Command to run the appvvv
 CMD ["node", "server.js"]
